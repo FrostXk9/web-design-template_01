@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: var(--black); */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+:root{
+    --colorOne: rgba(255, 255, 255, 0.214);
+    --colorTwo: #0000003d;
+    --colorThree: #0d0c0c;
+    --black: black;
+    --colorFour: rgb(246, 207, 135);
+    --colorFive: ;
+    --colorSix: ;
+    --backgroundImg: url("https://www.apple.com/newsroom/images/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/article/Apple-iPhone-15-Pro-lineup-hero-230912_Full-Bleed-Image.jpg.xlarge.jpg");
+}
+
+#iconOne,#iconTwo{
+    transform: rotateZ(40deg);
+    transform: translateY(-440px);
+    background-color: var(--colorOne);
+}
+
+#navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0%;
+}
+
+Header{
+    background-color: var(--black);
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+main{
+    min-height: 100vh;
+    background-color: var(--black);
+    /* overflow: hidden; */
+}
+
+#innerline{
+    position: fixed;
+    left: 89%;
+    top: 0%;
+    background-color: var(--colorTwo);
+    border: 3px solid var(--colorFour);
+    border-radius: 50%;
+    min-height: 35rem;
+    min-width: 35rem;
+    transform: rotateZ(-29deg);
+}
+
+#innerlineTwo{
+    position: fixed;
+    right: 89%;
+    top: 0%;
+    border-radius: 50%;
+    border: 3px solid var(--colorFour);
+    min-height: 35rem;
+    min-width: 35rem;
+    transform: rotateZ(-29deg);
+}
+
+#disp{
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    color: wheat;
+}
+
+#landBd{
+    background-image: var(--backgroundImg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#img{
+    height: 250px;
+}
+
+#firstSec, #secondSec{
+    min-height: 100vh;
+}
+
+#cardOne,#cardTwo, #cardThree{
+    background-color: #000000;
+    color: white;
+}
+
+#cardOne:hover{
+    border: 1px solid white;
+    transition: all 0.4s ease-in;
+}
+#cardTwo{
+    border: 1px solid white;
+    transition: all 0.4s ease-in;
+}
+#cardThree:hover{
+    border: 1px solid white;
+    transition: all 0.4s ease-in;
+}
+
+#ovTxt{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+#buttonOne:hover{
+    background-color: rgba(0, 238, 255, 0.542);
+    border: 1px solid white;
+    transition: all 0.3s ease-in-out;
+}
+
+#buttonTwo:hover{
+    transition: all 0.3s ease-in-out;
+    background-color: rgba(0, 238, 255, 0.542);
+    border: 1px solid white;
+}
+
+#imgOne{
+    height: 350px;
+    width: 450px;
+    border-radius: 50%;
+    transform: rotateZ(-14deg);
+    position: fixed;
+    filter: brightness(90%);
+    top: 10%;
+    left: 1%;
+}
+
+#semiSec{
+    position: fixed;
+    left: 76%;
+    top: 30%;
+    transform: rotateZ(100deg);
+    height: 50px;
+    width: 200px;
+    margin-top: 3px;
+}
+
+[data-8]{
+    color: white;
+    font-size: 30px;
+    position: fixed;
+    left: 115%;
+    top: 250%;
+    transform: rotateZ(-70deg);
+}
+
+#ogContainer{
+    background-color: #000000;
+    border-left: 1px solid #cecece;
+    border-right: 1px solid #cecece;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    /* min-height: 100vh; */
+    /* box-shadow: inset 10px 10px 30px 10px rgba(46, 45, 45, 0.496); */
+}
+
+/* #secondSec{
+    margin-bottom: 0px;
+} */
+
+#loader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  #loader::after {
+    content: "";
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+  }
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+#boxChat{
+    position: fixed;
+    bottom: -2%;
+    right: 0;
+    padding: 20px;
+    /* background-color: rgba(255, 255, 255, 0.348); */
+    cursor: pointer;
+    border-top-left-radius: 10px;
+}
+
+#s-bar{
+    border: 1px solid wheat;
+    background-color: black;
+    color: white;
+}
+
+#butn{
+    border: 1px solid wheat;
+    color: white;
+}
+
+/* #upperbox{
+    background-color: yellow;
+    height: 200px;
+    width: 400px;
+    position: fixed;
+    bottom: 10%;
+    right: 2%;
+    transition: all 2s ease-in-out;
+    display: none;
+} */
+
+
+#client{
+    position: fixed;
+    left: 39%;
+    top: 27.5%;
+    width: 350px;
+}
+
+#send{
+    position: fixed;
+    margin-bottom: 2px;
+    border-radius: 50%;
+    padding-top: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-align: center;
+    cursor: pointer;
+    right: 36%;
+    top: 27.7%;
+}
+
+#textar{
+    height: 100px;
+    position: fixed;
+    left: 42.5%;
+}
+
+#mod{
+    height: 150px;
+}
+
+#sale{
+    /* transform: translateY(-50.3px); */
+    width: 100%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    background-color: rgb(0, 0, 0);
+}
+
+/* footer:where(li, a){
+    color:white !important;
+} */

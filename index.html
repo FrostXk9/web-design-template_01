@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Template Co.</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/ffe67ac9b1.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body id="content">
+    
+    <header id="headerO">
+
+    </header>
+
+    <div id="loader"></div>
+
+    <main>
+
+      <div id="mainSec"></div>
+
+      <section id="firstSec">
+
+        
+        <div id="card" class="text-white"></div>
+        <div id="floatSec"></div>
+
+        <div id="boxChat">
+
+          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+
+            <i class="fa-regular fa-comments fa-2xl" style="color: #ffffff;"></i> 
+
+          </button>
+
+        </div>
+
+
+        <section>
+          <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+                <div class="container">
+                  <div class="carousel-caption text-start">
+                    <h1>Example headline.</h1>
+                    <p class="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+                <div class="container">
+                  <div class="carousel-caption">
+                    <h1>Another example headline.</h1>
+                    <p>Some representative placeholder content for the second slide of the carousel.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+                <div class="container">
+                  <div class="carousel-caption text-end">
+                    <h1>One more for good measure.</h1>
+                    <p>Some representative placeholder content for the third slide of this carousel.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfdNZi0-r_hevJQ3FVM3uLVHhsxqq0JJFXpA&usqp=CAU" alt="">
+          <img src="data:image/jpeg;base64,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" alt="">
+          <img src="data:image/jpeg;base64,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" alt="">
+        </section>
+
+      </section>
+      
+      <section id="secondSec" class="container w-100">
+        <div id="About" class="container">
+          <h1 class="text-white border-bottom text-start">- About us</h1>
+          <p class="text-white text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus beatae, eius sequi omnis fuga expedita perferendis perspiciatis mollitia est hic dolore eum voluptas quibusdam ipsum at dolores inventore aut laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus odio accusantium tempore reiciendis earum. Possimus ab deserunt delectus libero nam eligendi quisquam, optio, aliquam totam autem iusto voluptatum magnam consequatur?</p>
+        </div>
+        <div id="store" class="container">
+          <h1 class="text-white border-bottom text-start">- Our store</h1>
+          <p class="text-white text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus beatae, eius sequi omnis fuga expedita perferendis perspiciatis mollitia est hic dolore eum voluptas quibusdam ipsum at dolores inventore aut laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus odio accusantium tempore reiciendis earum. Possimus ab deserunt delectus libero nam eligendi quisquam, optio, aliquam totam autem iusto voluptatum magnam consequatur?</p>
+        </div>
+        <div id="mission" class="container">
+          <h1 class="text-white border-bottom text-start">- Our mission</h1>
+          <p class="text-white text-start mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus beatae, eius sequi omnis fuga expedita perferendis perspiciatis mollitia est hic dolore eum voluptas quibusdam ipsum at dolores inventore aut laborum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus odio accusantium tempore reiciendis earum. Possimus ab deserunt delectus libero nam eligendi quisquam, optio, aliquam totam autem iusto voluptatum magnam consequatur?</p>
+        </div>
+      </section>
+  
+        <!-- Modal -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+
+        <div class="modal-dialog">
+
+          <div class="modal-content bg-body-tertiary">
+
+            <div class="modal-header bg-black">
+
+              <h1 class="modal-title fs-5 bg-black text-white border-bottom" id="staticBackdropLabel">Template Co.</h1>
+
+              <button type="button" class="btn-close border text-white" data-bs-dismiss="modal">X</button>
+
+            </div>
+
+            <div class="modal-body" id="mod">
+  
+              <input type="text" id="client"/>
+  
+              <div id="send">
+  
+                <i class="fa-solid fa-paper-plane fa-lg" style="color: #000000;"></i>
+  
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </main>
+
+    <footer id="foot" class="bd-footer py-4 py-md-5 bg-black text-white">
+
+    </footer>
+
+    <script src="./index.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
